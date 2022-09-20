@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* inicio do header */
+.navbar{
+    display: flex;
+    background-color: #000;
+    
+}
+.navbar h1{
+    color: red;
+    margin-left: 180px;
+    font-size: 25px;
+}
+.lista{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0%;
+    margin-right: 100px;
+}
+
+.lista li{
+    padding-left: 20px;
+    padding-right: 1rem;
+    list-style-type: none;
+}
+/* fim do header */
+
+/* corpo do site */
+main{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.card{
+    margin: 2rem 0;
+}
+/* grid */
+.gridright{
+    
+    background-color: #000;
+    width: 200px; height: 200px;
+}
+
+
+
+
+
+@media(max-width:767px){
+    *{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+}
+.navbar h1{
+        display: flex;
+        justify-content: left;
+        margin: auto 1rem ;
+    }
+}
